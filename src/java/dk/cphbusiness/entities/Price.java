@@ -50,8 +50,9 @@ public class Price implements Serializable {
     public Price() {
     }
 
-    public Price(Integer id) {
+    public Price(Integer id, double amount) {
         this.id = id;
+        this.amount = amount;
     }
 
     public Integer getId() {
